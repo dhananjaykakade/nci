@@ -1,0 +1,3417 @@
+12/12/2024, 22:27:48 [ERROR]: uncaughtException: Cannot find module './database/connect'
+Require stack:
+- D:\nci\app.js
+Error: Cannot find module './database/connect'
+Require stack:
+- D:\nci\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './database/connect'
+Require stack:
+- D:\nci\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+12/12/2024, 22:28:12 [ERROR]: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (D:\nci\app.js:37:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+ReferenceError: router is not defined
+    at Object.<anonymous> (D:\nci\app.js:37:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+12/12/2024, 22:33:37 [ERROR]: unhandledRejection: CustomResponse is not defined
+ReferenceError: CustomResponse is not defined
+    at exports.getUserDetails (D:\nci\controllers\userController.js:27:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: CustomResponse is not defined
+    at exports.getUserDetails (D:\nci\controllers\userController.js:27:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+12/12/2024, 22:33:37 [ERROR]: Unhandled Rejection: ReferenceError: CustomResponse is not defined
+ReferenceError: CustomResponse is not defined
+    at exports.getUserDetails (D:\nci\controllers\userController.js:27:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+12/12/2024, 22:41:29 [ERROR]: Something went wrong
+ApiError: Something went wrong
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at errorHandler (D:\nci\middleware\errorHandler.js:9:11)
+    at Layer.handle_error (D:\nci\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\nci\node_modules\express\lib\router\index.js:326:13)
+    at D:\nci\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (D:\nci\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (D:\nci\node_modules\express\lib\router\index.js:326:13)
+13/12/2024, 15:41:14 [ERROR]: Error during registration:
+13/12/2024, 15:41:14 [ERROR]: Internal server error
+ApiError: Internal server error
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at exports.Register (D:\nci\controllers\userController.js:106:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 15:42:14 [ERROR]: Error during registration:
+13/12/2024, 15:42:14 [ERROR]: Internal server error
+ApiError: Internal server error
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at exports.Register (D:\nci\controllers\userController.js:107:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 15:42:55 [ERROR]: Error during registration:
+13/12/2024, 15:42:55 [ERROR]: Internal server error
+ApiError: Internal server error
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at exports.Register (D:\nci\controllers\userController.js:110:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 15:42:58 [ERROR]: Error during registration:
+13/12/2024, 15:42:58 [ERROR]: Internal server error
+ApiError: Internal server error
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at exports.Register (D:\nci\controllers\userController.js:110:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 15:43:00 [ERROR]: Error during registration:
+13/12/2024, 15:43:00 [ERROR]: Internal server error
+ApiError: Internal server error
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at exports.Register (D:\nci\controllers\userController.js:110:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 15:43:27 [ERROR]: Error closing database connections: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at process.shutdown (D:\nci\server.js:41:9)
+    at process.emit (node:events:524:28)
+13/12/2024, 15:44:41 [ERROR]: uncaughtException: re is not defined
+ReferenceError: re is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+ReferenceError: re is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+13/12/2024, 15:44:54 [ERROR]: uncaughtException: Cannot find module '../validator'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../validator'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../validator'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 15:44:55 [ERROR]: uncaughtException: Cannot find module '../validator/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../validator/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../validator/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 15:47:33 [ERROR]: unhandledRejection: z is not defined
+ReferenceError: z is not defined
+    at exports.Register (D:\nci\controllers\userController.js:112:26)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\nci\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\nci\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\nci\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\nci\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+ReferenceError: z is not defined
+    at exports.Register (D:\nci\controllers\userController.js:112:26)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\nci\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\nci\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\nci\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\nci\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+13/12/2024, 15:47:33 [ERROR]: Unhandled Rejection: ReferenceError: z is not defined
+ReferenceError: z is not defined
+    at exports.Register (D:\nci\controllers\userController.js:112:26)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\nci\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\nci\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\nci\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\nci\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+13/12/2024, 15:48:06 [ERROR]: Error during registration:
+13/12/2024, 15:48:06 [ERROR]: unhandledRejection: handleError is not defined
+ReferenceError: handleError is not defined
+    at exports.Register (D:\nci\controllers\userController.js:130:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\nci\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\nci\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\nci\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\nci\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+ReferenceError: handleError is not defined
+    at exports.Register (D:\nci\controllers\userController.js:130:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\nci\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\nci\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\nci\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\nci\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+13/12/2024, 15:48:06 [ERROR]: Unhandled Rejection: ReferenceError: handleError is not defined
+ReferenceError: handleError is not defined
+    at exports.Register (D:\nci\controllers\userController.js:130:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\nci\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\nci\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\nci\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\nci\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+    at node:internal/streams/writable:936:13
+13/12/2024, 15:48:45 [ERROR]: Error during registration:
+13/12/2024, 15:49:28 [ERROR]: Error during registration:
+13/12/2024, 15:53:11 [ERROR]: unhandledRejection: filePath is not defined
+ReferenceError: filePath is not defined
+    at exports.Register (D:\nci\controllers\userController.js:115:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+ReferenceError: filePath is not defined
+    at exports.Register (D:\nci\controllers\userController.js:115:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 15:53:11 [ERROR]: Unhandled Rejection: ReferenceError: filePath is not defined
+ReferenceError: filePath is not defined
+    at exports.Register (D:\nci\controllers\userController.js:115:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 16:00:22 [ERROR]: Error during registration:
+13/12/2024, 16:05:23 [ERROR]: uncaughtException: reu is not defined
+ReferenceError: reu is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+ReferenceError: reu is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+13/12/2024, 16:05:24 [ERROR]: uncaughtException: rq is not defined
+ReferenceError: rq is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+ReferenceError: rq is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+13/12/2024, 16:05:27 [ERROR]: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+13/12/2024, 16:05:41 [ERROR]: uncaughtException: Cannot find module '../utils'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../utils'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../utils'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 16:05:42 [ERROR]: uncaughtException: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 16:06:26 [ERROR]: Error during registration:
+13/12/2024, 16:07:12 [ERROR]: Error closing database connections: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at process.shutdown (D:\nci\server.js:41:9)
+    at process.emit (node:events:524:28)
+13/12/2024, 16:07:37 [ERROR]: Error during registration:
+13/12/2024, 16:08:08 [ERROR]: Error during registration:
+13/12/2024, 16:09:38 [ERROR]: Error during registration:
+13/12/2024, 16:10:54 [ERROR]: uncaughtException: getISTTimestamp is not defined
+ReferenceError: getISTTimestamp is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+ReferenceError: getISTTimestamp is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+13/12/2024, 16:11:02 [ERROR]: uncaughtException: getISTTimestamp is not defined
+ReferenceError: getISTTimestamp is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+ReferenceError: getISTTimestamp is not defined
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\user.js:3:24)
+13/12/2024, 16:11:40 [ERROR]: Error during registration:
+13/12/2024, 16:14:04 [ERROR]: Error closing database connections: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at process.shutdown (D:\nci\server.js:41:9)
+    at process.emit (node:events:524:28)
+13/12/2024, 16:14:31 [ERROR]: Error during registration:
+13/12/2024, 16:36:52 [ERROR]: uncaughtException: Cannot find module 'express-rate-limit'
+Require stack:
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module 'express-rate-limit'
+Require stack:
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module 'express-rate-limit'
+Require stack:
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 17:07:36 [ERROR]: Error during registration:
+13/12/2024, 17:07:36 [ERROR]: unhandledRejection: formatError is not defined
+ReferenceError: formatError is not defined
+    at exports.Register (D:\nci\controllers\userController.js:175:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+ReferenceError: formatError is not defined
+    at exports.Register (D:\nci\controllers\userController.js:175:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 17:07:36 [ERROR]: Unhandled Rejection: ReferenceError: formatError is not defined
+ReferenceError: formatError is not defined
+    at exports.Register (D:\nci\controllers\userController.js:175:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 17:08:04 [ERROR]: Error during registration:
+13/12/2024, 17:08:32 [ERROR]: Error during registration:
+13/12/2024, 17:33:16 [ERROR]: uncaughtException: Missing initializer in const declaration
+D:\nci\utils\redisClient.js:2
+const logger
+      ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:11:15)
+D:\nci\utils\redisClient.js:2
+const logger
+      ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:11:15)
+13/12/2024, 17:33:20 [ERROR]: uncaughtException: The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1333:3)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\redisClient.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1333:3)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\redisClient.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+13/12/2024, 17:33:21 [ERROR]: uncaughtException: The argument 'id' must be a non-empty string. Received ''
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at Module.require (node:internal/modules/cjs/loader:1335:11)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\redisClient.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at Module.require (node:internal/modules/cjs/loader:1335:11)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\redisClient.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+13/12/2024, 17:33:26 [ERROR]: uncaughtException: Cannot find module './'
+Require stack:
+- D:\nci\utils\redisClient.js
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './'
+Require stack:
+- D:\nci\utils\redisClient.js
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\redisClient.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './'
+Require stack:
+- D:\nci\utils\redisClient.js
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\redisClient.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 17:33:43 [ERROR]: uncaughtException: lo is not defined
+ReferenceError: lo is not defined
+    at EventEmitter.<anonymous> (D:\nci\utils\redisClient.js:13:3)
+    at EventEmitter.emit (node:events:524:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ReferenceError: lo is not defined
+    at EventEmitter.<anonymous> (D:\nci\utils\redisClient.js:13:3)
+    at EventEmitter.emit (node:events:524:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+13/12/2024, 17:33:43 [ERROR]: Uncaught Exception: lo is not defined
+ReferenceError: lo is not defined
+    at EventEmitter.<anonymous> (D:\nci\utils\redisClient.js:13:3)
+    at EventEmitter.emit (node:events:524:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+13/12/2024, 17:33:45 [ERROR]: uncaughtException: Invalid or unexpected token
+D:\nci\utils\redisClient.js:13
+  logger.info('Connect
+              ^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:11:15)
+D:\nci\utils\redisClient.js:13
+  logger.info('Connect
+              ^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:11:15)
+13/12/2024, 17:33:47 [ERROR]: uncaughtException: Invalid or unexpected token
+D:\nci\utils\redisClient.js:13
+  logger.info('Connect
+              ^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:11:15)
+D:\nci\utils\redisClient.js:13
+  logger.info('Connect
+              ^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:11:15)
+13/12/2024, 17:47:01 [ERROR]: uncaughtException: a is not defined
+ReferenceError: a is not defined
+    at Object.<anonymous> (D:\nci\app.js:37:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\server.js:2:13)
+ReferenceError: a is not defined
+    at Object.<anonymous> (D:\nci\app.js:37:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\server.js:2:13)
+13/12/2024, 17:58:26 [ERROR]: uncaughtException: Unexpected end of input
+D:\nci\controllers\adminController.js:47
+exports.adminTest = 
+                    
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:47
+exports.adminTest = 
+                    
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 17:58:32 [ERROR]: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:47:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:47:22)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 17:58:50 [ERROR]: uncaughtException: missing ) after argument list
+D:\nci\controllers\adminController.js:58
+}
+^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:58
+}
+^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:04:48 [ERROR]: uncaughtException: Class constructor t cannot be invoked without 'new'
+TypeError: Class constructor t cannot be invoked without 'new'
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:5:42)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+TypeError: Class constructor t cannot be invoked without 'new'
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:5:42)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:05:35 [ERROR]: uncaughtException: prisma is not a constructor
+TypeError: prisma is not a constructor
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:6:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+TypeError: prisma is not a constructor
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:6:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:06:15 [ERROR]: uncaughtException: Invalid or unexpected token
+D:\nci\router\admin.js:8
+router.get('/admin, adminController.adminTest)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+D:\nci\router\admin.js:8
+router.get('/admin, adminController.adminTest)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:06:29 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\router\admin.js:8
+router.get('/count', adminController.)
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+D:\nci\router\admin.js:8
+router.get('/count', adminController.)
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:07:20 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:22 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:28 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:31 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:34 [ERROR]: uncaughtException: Unexpected end of input
+D:\nci\controllers\adminController.js:112
+exports.getAmount = async(req,res ) =
+                                     
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:112
+exports.getAmount = async(req,res ) =
+                                     
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:35 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:112:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:46 [ERROR]: uncaughtException: Unexpected token 'try'
+D:\nci\controllers\adminController.js:113
+    try
+    ^^^
+
+SyntaxError: Unexpected token 'try'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:113
+    try
+    ^^^
+
+SyntaxError: Unexpected token 'try'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:47 [ERROR]: uncaughtException: Unexpected token '{'
+D:\nci\controllers\adminController.js:113
+    try{
+       ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:113
+    try{
+       ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:56 [ERROR]: uncaughtException: Unexpected token '{'
+D:\nci\controllers\adminController.js:113
+    try {
+        ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:113
+    try {
+        ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:07:57 [ERROR]: uncaughtException: Unexpected token '{'
+D:\nci\controllers\adminController.js:113
+    try {
+        ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:113
+    try {
+        ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:08:12 [ERROR]: uncaughtException: Unexpected token '{'
+D:\nci\controllers\adminController.js:113
+    try {
+        ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:113
+    try {
+        ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:09:35 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\router\admin.js:9
+router.get('/count', adminController.)
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+D:\nci\router\admin.js:9
+router.get('/count', adminController.)
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:10:17 [ERROR]: uncaughtException: Unexpected identifier 'totalAmount'
+D:\nci\controllers\adminController.js:116
+        const totalAmount = await prisma.user.sum({
+              ^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'totalAmount'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:116
+        const totalAmount = await prisma.user.sum({
+              ^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'totalAmount'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:13:04 [ERROR]: uncaughtException: Unexpected token '||'
+D:\nci\controllers\adminController.js:126
+            payload: { totalAmount: totalAmount. || 0 }, // Handle null in case no data exists
+                                                 ^^
+
+SyntaxError: Unexpected token '||'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:126
+            payload: { totalAmount: totalAmount. || 0 }, // Handle null in case no data exists
+                                                 ^^
+
+SyntaxError: Unexpected token '||'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:13:49 [ERROR]: Error closing database connections: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at process.shutdown (D:\nci\server.js:41:9)
+    at process.emit (node:events:524:28)
+13/12/2024, 18:17:22 [ERROR]: uncaughtException: Unexpected end of input
+D:\nci\controllers\adminController.js:140
+exports.
+        
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:140
+exports.
+        
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:17:35 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:140:29)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:140:29)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:17:38 [ERROR]: uncaughtException: asyn is not defined
+ReferenceError: asyn is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:140:29)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: asyn is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:140:29)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:17:47 [ERROR]: uncaughtException: Unexpected token '}'
+D:\nci\controllers\adminController.js:142
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:142
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:18:30 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\router\admin.js:10
+router.get('/user-count', adminController.)
+                                          ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+D:\nci\router\admin.js:10
+router.get('/user-count', adminController.)
+                                          ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:18:54 [ERROR]: uncaughtException: Unexpected end of input
+D:\nci\controllers\adminController.js:163
+exports.
+        
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:163
+exports.
+        
+
+SyntaxError: Unexpected end of input
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:19:04 [ERROR]: uncaughtException: as is not defined
+ReferenceError: as is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: as is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:19:06 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:19:08 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:19:10 [ERROR]: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+ReferenceError: async is not defined
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:163:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:19:33 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\router\admin.js:11
+router.get('/users', adminController.)
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+D:\nci\router\admin.js:11
+router.get('/users', adminController.)
+                                     ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:22:33 [ERROR]: uncaughtException: Unexpected identifier 'sendConfirmationEmail'
+D:\nci\controllers\adminController.js:189
+exp sendConfirmationEmail = async (req, res) => {
+    ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'sendConfirmationEmail'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:189
+exp sendConfirmationEmail = async (req, res) => {
+    ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'sendConfirmationEmail'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:22:35 [ERROR]: uncaughtException: Unexpected identifier 'sendConfirmationEmail'
+D:\nci\controllers\adminController.js:189
+exports sendConfirmationEmail = async (req, res) => {
+        ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'sendConfirmationEmail'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:189
+exports sendConfirmationEmail = async (req, res) => {
+        ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'sendConfirmationEmail'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 18:22:47 [ERROR]: uncaughtException: Cannot find module 'nodemailer'
+Require stack:
+- D:\nci\services\mailService.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module 'nodemailer'
+Require stack:
+- D:\nci\services\mailService.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\services\mailService.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module 'nodemailer'
+Require stack:
+- D:\nci\services\mailService.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\services\mailService.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 18:23:23 [ERROR]: uncaughtException: sendConfirmationEmail is not defined
+ReferenceError: sendConfirmationEmail is not defined
+    at Object.<anonymous> (D:\nci\router\admin.js:12:25)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+ReferenceError: sendConfirmationEmail is not defined
+    at Object.<anonymous> (D:\nci\router\admin.js:12:25)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:23:30 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\router\admin.js:12
+router.post('/sendMail',adminController.)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+D:\nci\router\admin.js:12
+router.post('/sendMail',adminController.)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:9:15)
+13/12/2024, 18:23:42 [ERROR]: unhandledRejection: QRCode is not defined
+ReferenceError: QRCode is not defined
+    at exports.sendConfirmationEmail (D:\nci\controllers\adminController.js:203:28)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: QRCode is not defined
+    at exports.sendConfirmationEmail (D:\nci\controllers\adminController.js:203:28)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+13/12/2024, 18:23:42 [ERROR]: Unhandled Rejection: ReferenceError: QRCode is not defined
+ReferenceError: QRCode is not defined
+    at exports.sendConfirmationEmail (D:\nci\controllers\adminController.js:203:28)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+13/12/2024, 19:24:54 [ERROR]: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\nci\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (D:\nci\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\nci\router\admin.js:6:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\nci\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (D:\nci\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\nci\router\admin.js:6:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+13/12/2024, 19:26:02 [ERROR]: Error during registration:
+13/12/2024, 19:26:49 [ERROR]: Error during registration:
+13/12/2024, 19:27:15 [ERROR]: Error during registration:
+13/12/2024, 19:27:40 [ERROR]: uncaughtException: z.I is not a function
+TypeError: z.I is not a function
+    at Object.<anonymous> (D:\nci\validator\validate.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+TypeError: z.I is not a function
+    at Object.<anonymous> (D:\nci\validator\validate.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:27:41 [ERROR]: uncaughtException: z.In is not a function
+TypeError: z.In is not a function
+    at Object.<anonymous> (D:\nci\validator\validate.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+TypeError: z.In is not a function
+    at Object.<anonymous> (D:\nci\validator\validate.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:27:46 [ERROR]: uncaughtException: z.int is not a function
+TypeError: z.int is not a function
+    at Object.<anonymous> (D:\nci\validator\validate.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+TypeError: z.int is not a function
+    at Object.<anonymous> (D:\nci\validator\validate.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:05 [ERROR]: uncaughtException: Unexpected token ':'
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+         ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+         ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:10 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:14 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:20 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:22 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:24 [ERROR]: uncaughtException: Unexpected token ','
+D:\nci\validator\validate.js:12
+  Amount: z.bigint(,)
+                   ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:12
+  Amount: z.bigint(,)
+                   ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:28:25 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:13
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:29:23 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:16
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:16
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:29:25 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:16
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:16
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:29:27 [ERROR]: uncaughtException: Unexpected identifier 'Country'
+D:\nci\validator\validate.js:16
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+D:\nci\validator\validate.js:16
+  Country:z.string(),
+  ^^^^^^^
+
+SyntaxError: Unexpected identifier 'Country'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:7:29)
+13/12/2024, 19:36:23 [ERROR]: uncaughtException: Missing initializer in const declaration
+D:\nci\controllers\adminController.js:8
+const clou
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:8
+const clou
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:36:25 [ERROR]: uncaughtException: Missing initializer in const declaration
+D:\nci\controllers\adminController.js:8
+const cloudi
+      ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:8
+const cloudi
+      ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:36:26 [ERROR]: uncaughtException: Missing initializer in const declaration
+D:\nci\controllers\adminController.js:8
+const cloudinar
+      ^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:8
+const cloudinar
+      ^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:36:30 [ERROR]: uncaughtException: The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1333:3)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:8:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1333:3)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:8:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+13/12/2024, 19:37:40 [ERROR]: uncaughtException: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 19:40:38 [ERROR]: uncaughtException: Identifier 'upload' has already been declared
+D:\nci\controllers\adminController.js:9
+const upload = require("../utils/multer")
+      ^
+
+SyntaxError: Identifier 'upload' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:9
+const upload = require("../utils/multer")
+      ^
+
+SyntaxError: Identifier 'upload' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:40:42 [ERROR]: uncaughtException: Missing initializer in const declaration
+D:\nci\controllers\adminController.js:8
+const uploadImage} = require('../config/cloudinary')
+      ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:8
+const uploadImage} = require('../config/cloudinary')
+      ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:42:19 [ERROR]: uncaughtException: Unexpected token '}'
+D:\nci\controllers\adminController.js:260
+      };
+      ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:260
+      };
+      ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:47:00 [ERROR]: uncaughtException: Unexpected token '}'
+D:\nci\controllers\adminController.js:249
+            <img src=${}  alt="QR Code" style="display: block; margin: 0 auto; width: 150px; height: 150px;">
+                       ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:249
+            <img src=${}  alt="QR Code" style="display: block; margin: 0 auto; width: 150px; height: 150px;">
+                       ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:47:09 [ERROR]: uncaughtException: Unexpected token '}'
+D:\nci\controllers\adminController.js:249
+            <img src=${uploadResult.}  alt="QR Code" style="display: block; margin: 0 auto; width: 150px; height: 150px;">
+                                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:249
+            <img src=${uploadResult.}  alt="QR Code" style="display: block; margin: 0 auto; width: 150px; height: 150px;">
+                                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:47:10 [ERROR]: uncaughtException: Unexpected token '}'
+D:\nci\controllers\adminController.js:249
+            <img src=${uploadResult.}  alt="QR Code" style="display: block; margin: 0 auto; width: 150px; height: 150px;">
+                                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:249
+            <img src=${uploadResult.}  alt="QR Code" style="display: block; margin: 0 auto; width: 150px; height: 150px;">
+                                    ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:47:33 [ERROR]: uncaughtException: Unexpected token ']'
+D:\nci\controllers\adminController.js:256
+        ],
+        ^
+
+SyntaxError: Unexpected token ']'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:256
+        ],
+        ^
+
+SyntaxError: Unexpected token ']'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 19:49:25 [ERROR]: uncaughtException: Barcode image upload failed: Request Timeout
+Error: Barcode image upload failed: Request Timeout
+    at D:\nci\config\cloudinary.js:37:17
+    at D:\nci\node_modules\cloudinary\lib\utils\index.js:1354:14
+    at handle_response (D:\nci\node_modules\cloudinary\lib\uploader.js:486:7)
+    at ClientRequest.<anonymous> (D:\nci\node_modules\cloudinary\lib\uploader.js:603:12)
+    at ClientRequest.emit (node:events:536:35)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketCloseListener (node:_http_client:485:7)
+    at TLSSocket.emit (node:events:536:35)
+    at node:net:350:12
+    at TCP.done (node:_tls_wrap:650:7)
+Error: Barcode image upload failed: Request Timeout
+    at D:\nci\config\cloudinary.js:37:17
+    at D:\nci\node_modules\cloudinary\lib\utils\index.js:1354:14
+    at handle_response (D:\nci\node_modules\cloudinary\lib\uploader.js:486:7)
+    at ClientRequest.<anonymous> (D:\nci\node_modules\cloudinary\lib\uploader.js:603:12)
+    at ClientRequest.emit (node:events:536:35)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketCloseListener (node:_http_client:485:7)
+    at TLSSocket.emit (node:events:536:35)
+    at node:net:350:12
+    at TCP.done (node:_tls_wrap:650:7)
+13/12/2024, 19:49:25 [ERROR]: Uncaught Exception: Barcode image upload failed: Request Timeout
+Error: Barcode image upload failed: Request Timeout
+    at D:\nci\config\cloudinary.js:37:17
+    at D:\nci\node_modules\cloudinary\lib\utils\index.js:1354:14
+    at handle_response (D:\nci\node_modules\cloudinary\lib\uploader.js:486:7)
+    at ClientRequest.<anonymous> (D:\nci\node_modules\cloudinary\lib\uploader.js:603:12)
+    at ClientRequest.emit (node:events:536:35)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketCloseListener (node:_http_client:485:7)
+    at TLSSocket.emit (node:events:536:35)
+    at node:net:350:12
+    at TCP.done (node:_tls_wrap:650:7)
+13/12/2024, 19:49:25 [ERROR]: unhandledRejection: (no error message)
+  No stack trace
+13/12/2024, 19:49:25 [ERROR]: Unhandled Rejection: [object Object]
+
+13/12/2024, 20:01:10 [ERROR]: Uncaught Exception: connect EHOSTUNREACH 2404:6800:4003:c0f::6d:465
+Error: connect EHOSTUNREACH 2404:6800:4003:c0f::6d:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)
+13/12/2024, 20:02:24 [ERROR]: Uncaught Exception: connect EHOSTUNREACH 2404:6800:4003:c0f::6d:465
+Error: connect EHOSTUNREACH 2404:6800:4003:c0f::6d:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)
+13/12/2024, 20:07:52 [ERROR]: uncaughtException: Unexpected token '.'
+D:\nci\controllers\adminController.js:225
+      .console.log();
+      ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:225
+      .console.log();
+      ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:07:54 [ERROR]: uncaughtException: Unexpected token '.'
+D:\nci\controllers\adminController.js:225
+      .console.log(qrBuffer);
+      ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:225
+      .console.log(qrBuffer);
+      ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:12:05 [ERROR]: uncaughtException: Unexpected token '('
+D:\nci\controllers\adminController.js:225
+      const qrBuffer = await QRCode.(qrData, { type: 'png' });
+                                    ^
+
+SyntaxError: Unexpected token '('
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:225
+      const qrBuffer = await QRCode.(qrData, { type: 'png' });
+                                    ^
+
+SyntaxError: Unexpected token '('
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:13:32 [ERROR]: uncaughtException: Cannot find module '../cloudinary'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../cloudinary'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:10:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../cloudinary'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:10:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:13:33 [ERROR]: uncaughtException: Cannot find module '../configcloudinary'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../configcloudinary'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:10:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../configcloudinary'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:10:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:17:59 [ERROR]: uncaughtException: Unexpected token ','
+D:\nci\controllers\adminController.js:10
+const {,uploadResult} = require('../config/cloudinary');
+       ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:10
+const {,uploadResult} = require('../config/cloudinary');
+       ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:18:09 [ERROR]: uncaughtException: Unexpected string
+D:\nci\controllers\adminController.js:10
+const {        "uploadImage is not defined"
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:10
+const {        "uploadImage is not defined"
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:29:20 [ERROR]: uncaughtException: Unexpected token '('
+D:\nci\controllers\adminController.js:222
+      const qrBuffer = await QRCode.(qrData, { type: 'png' });
+                                    ^
+
+SyntaxError: Unexpected token '('
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:222
+      const qrBuffer = await QRCode.(qrData, { type: 'png' });
+                                    ^
+
+SyntaxError: Unexpected token '('
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:31:06 [ERROR]: uncaughtException: Unexpected token '('
+D:\nci\controllers\adminController.js:222
+      const qrBuffer = await QRCode.(qrData, { type: 'png' });
+                                    ^
+
+SyntaxError: Unexpected token '('
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:222
+      const qrBuffer = await QRCode.(qrData, { type: 'png' });
+                                    ^
+
+SyntaxError: Unexpected token '('
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 20:38:44 [ERROR]: Error closing database connections: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at process.shutdown (D:\nci\server.js:41:9)
+    at process.emit (node:events:524:28)
+13/12/2024, 20:43:14 [ERROR]: uncaughtException: Cannot find module './queue'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './queue'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './queue'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:43:22 [ERROR]: uncaughtException: Cannot find module '../utils.'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../utils.'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../utils.'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:43:23 [ERROR]: uncaughtException: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:43:27 [ERROR]: uncaughtException: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:44:32 [ERROR]: uncaughtException: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:44:38 [ERROR]: uncaughtException: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './redis'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:44:56 [ERROR]: uncaughtException: Cannot find module './re'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './re'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './re'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:44:59 [ERROR]: uncaughtException: Cannot find module './'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module './'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './'
+Require stack:
+- D:\nci\utils\queue.js
+- D:\nci\controllers\adminController.js
+- D:\nci\router\admin.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\utils\queue.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 20:46:15 [ERROR]: uncaughtException: Unexpected token 'const'
+D:\nci\controllers\adminController.js:215
+      const qrData = `
+      ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+D:\nci\controllers\adminController.js:215
+      const qrData = `
+      ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\router\admin.js:3:24)
+13/12/2024, 21:26:39 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\utils\queue.js:17
+  console.log(qrBuffer.toString());)
+                                   ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+D:\nci\utils\queue.js:17
+  console.log(qrBuffer.toString());)
+                                   ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+13/12/2024, 21:26:40 [ERROR]: uncaughtException: Unexpected token ')'
+D:\nci\utils\queue.js:17
+  console.log(qrBuffer.toString()))
+                                  ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+D:\nci\utils\queue.js:17
+  console.log(qrBuffer.toString()))
+                                  ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\adminController.js:11:20)
+13/12/2024, 21:46:02 [ERROR]: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\nci\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (D:\nci\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\nci\router\user.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\nci\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (D:\nci\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\nci\router\user.js:9:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)

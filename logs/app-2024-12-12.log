@@ -1,0 +1,132 @@
+12/12/2024, 22:27:48 [ERROR]: uncaughtException: Cannot find module './database/connect'
+Require stack:
+- D:\nci\app.js
+Error: Cannot find module './database/connect'
+Require stack:
+- D:\nci\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module './database/connect'
+Require stack:
+- D:\nci\app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\app.js:13:19)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+12/12/2024, 22:28:12 [ERROR]: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (D:\nci\app.js:37:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+ReferenceError: router is not defined
+    at Object.<anonymous> (D:\nci\app.js:37:20)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+12/12/2024, 22:31:44 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:32:55 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:33:27 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:33:31 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:33:33 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:33:37 [ERROR]: unhandledRejection: CustomResponse is not defined
+ReferenceError: CustomResponse is not defined
+    at exports.getUserDetails (D:\nci\controllers\userController.js:27:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: CustomResponse is not defined
+    at exports.getUserDetails (D:\nci\controllers\userController.js:27:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+12/12/2024, 22:33:37 [ERROR]: Unhandled Rejection: ReferenceError: CustomResponse is not defined
+ReferenceError: CustomResponse is not defined
+    at exports.getUserDetails (D:\nci\controllers\userController.js:27:5)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\nci\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\nci\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\nci\node_modules\express\lib\router\layer.js:95:5)
+    at D:\nci\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\nci\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\nci\node_modules\express\lib\router\index.js:47:12)
+12/12/2024, 22:33:56 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:34:21 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:35:17 [WARN]: Received shutdown signal, shutting down gracefully...
+12/12/2024, 22:39:02 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:11 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:16 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:21 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:22 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:27 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:47 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:56 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:39:59 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:40:02 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:40:03 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:40:08 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:40:20 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:40:29 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:41:26 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:41:29 [ERROR]: Something went wrong
+ApiError: Something went wrong
+    at new BaseError (D:\nci\utils\baseError.js:12:13)
+    at new ApiError (D:\nci\utils\customError.js:9:5)
+    at errorHandler (D:\nci\middleware\errorHandler.js:9:11)
+    at Layer.handle_error (D:\nci\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\nci\node_modules\express\lib\router\index.js:326:13)
+    at D:\nci\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\nci\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\nci\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (D:\nci\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (D:\nci\node_modules\express\lib\router\index.js:326:13)
+12/12/2024, 22:43:43 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:43:50 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:44:19 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:45:25 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:45:54 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:47:45 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:48:42 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:48:45 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:48:51 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:48:54 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:48:57 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+12/12/2024, 22:50:52 [WARN]: Received shutdown signal, shutting down gracefully...
