@@ -24,5 +24,8 @@ RUN apt-get update && \
     apt-get install -y redis-server && \
     rm -rf /var/lib/apt/lists/*
 
+
+RUN npx prisma generate
+
 # Command to start Redis and the Node.js app
 CMD ["sh", "-c", "redis-server --daemonize yes && npm start"]
