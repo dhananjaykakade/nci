@@ -37,12 +37,7 @@ const startServer = () => {
 // Function to gracefully shut down the server
 const shutdown = async () => {
     logger.warn('Received shutdown signal, shutting down gracefully...');
-    try {
-        await mongoose.connection.close(); // Close database connections
-        logger.info('Database connections closed.');
-    } catch (error) {
-        logger.error('Error closing database connections:', error);
-    }
+
 
     server.close((err) => {
         if (err) {

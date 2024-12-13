@@ -4126,3 +4126,213 @@ Error: Route.post() requires a callback function but got a [object Undefined]
 13/12/2024, 21:51:30 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
 13/12/2024, 21:51:30 [INFO]: Connected to Redis
 13/12/2024, 22:03:55 [WARN]: Received shutdown signal, shutting down gracefully...
+13/12/2024, 22:46:44 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 22:46:44 [INFO]: Connected to Redis
+13/12/2024, 22:48:15 [WARN]: Received shutdown signal, shutting down gracefully...
+13/12/2024, 23:19:49 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::6789
+Error: listen EADDRINUSE: address already in use :::6789
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at startServer (D:\nci\server.js:18:12)
+    at Object.<anonymous> (D:\nci\server.js:59:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+Error: listen EADDRINUSE: address already in use :::6789
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at startServer (D:\nci\server.js:18:12)
+    at Object.<anonymous> (D:\nci\server.js:59:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+13/12/2024, 23:19:49 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::6789
+Error: listen EADDRINUSE: address already in use :::6789
+    at Server.setupListenHandle [as _listen2] (node:net:1912:16)
+    at listenInCluster (node:net:1969:12)
+    at Server.listen (node:net:2074:7)
+    at startServer (D:\nci\server.js:18:12)
+    at Object.<anonymous> (D:\nci\server.js:59:1)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+13/12/2024, 23:19:50 [INFO]: Connected to Redis
+13/12/2024, 23:20:25 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:20:25 [INFO]: Connected to Redis
+13/12/2024, 23:21:05 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:21:05 [INFO]: Connected to Redis
+13/12/2024, 23:21:19 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:21:19 [INFO]: Connected to Redis
+13/12/2024, 23:21:29 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:21:29 [INFO]: Connected to Redis
+13/12/2024, 23:21:34 [ERROR]: uncaughtException: The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1333:3)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at Module.require (node:internal/modules/cjs/loader:1333:3)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+13/12/2024, 23:21:34 [INFO]: Connected to Redis
+13/12/2024, 23:21:36 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:21:36 [INFO]: Connected to Redis
+13/12/2024, 23:21:39 [ERROR]: uncaughtException: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+Error: Cannot find module '../utils/'
+Require stack:
+- D:\nci\controllers\userController.js
+- D:\nci\router\user.js
+- D:\nci\app.js
+- D:\nci\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (D:\nci\controllers\userController.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+13/12/2024, 23:21:39 [INFO]: Connected to Redis
+13/12/2024, 23:21:41 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:21:41 [INFO]: Connected to Redis
+13/12/2024, 23:22:34 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:22:34 [INFO]: Connected to Redis
+13/12/2024, 23:22:41 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'then')
+TypeError: Cannot read properties of undefined (reading 'then')
+    at D:\nci\controllers\userController.js:176:10
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: Cannot read properties of undefined (reading 'then')
+    at D:\nci\controllers\userController.js:176:10
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:22:42 [ERROR]: Uncaught Exception: Cannot read properties of undefined (reading 'then')
+TypeError: Cannot read properties of undefined (reading 'then')
+    at D:\nci\controllers\userController.js:176:10
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:22:52 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:22:52 [INFO]: Connected to Redis
+13/12/2024, 23:22:52 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'then')
+TypeError: Cannot read properties of undefined (reading 'then')
+    at D:\nci\controllers\userController.js:176:10
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: Cannot read properties of undefined (reading 'then')
+    at D:\nci\controllers\userController.js:176:10
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:22:52 [ERROR]: Uncaught Exception: Cannot read properties of undefined (reading 'then')
+TypeError: Cannot read properties of undefined (reading 'then')
+    at D:\nci\controllers\userController.js:176:10
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:23:10 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:23:10 [INFO]: Connected to Redis
+13/12/2024, 23:23:10 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'findFirst')
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:30
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:30
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:23:10 [ERROR]: Uncaught Exception: Cannot read properties of undefined (reading 'findFirst')
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:30
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:23:12 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:23:12 [INFO]: Connected to Redis
+13/12/2024, 23:23:16 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'findFirst')
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:29
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:29
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:23:16 [ERROR]: Uncaught Exception: Cannot read properties of undefined (reading 'findFirst')
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:29
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:23:19 [ERROR]: uncaughtException: Cannot read properties of undefined (reading 'findFirst')
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:29
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:29
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:23:19 [ERROR]: Uncaught Exception: Cannot read properties of undefined (reading 'findFirst')
+TypeError: Cannot read properties of undefined (reading 'findFirst')
+    at D:\nci\controllers\userController.js:175:29
+    at tryCatcher (D:\nci\node_modules\standard-as-callback\built\utils.js:12:23)
+    at D:\nci\node_modules\standard-as-callback\built\index.js:22:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+13/12/2024, 23:24:03 [INFO]: Server running on port 6789 in development mode. Link: http://localhost:6789
+13/12/2024, 23:24:03 [INFO]: Connected to Redis
+13/12/2024, 23:25:44 [WARN]: Received shutdown signal, shutting down gracefully...

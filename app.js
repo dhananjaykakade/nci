@@ -32,6 +32,7 @@ app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
 //routes
 
 app.get('/', (req, res) => res.status(403).json({ message:"forbidden"}));
+app.get('/health', (req, res) => res.status(200).json({status: 'ok', message: 'Application is running',timestamp: new Date().toISOString(), }));
 
 app.use('/api/v1', user);
 app.use('/api/v1', admin);

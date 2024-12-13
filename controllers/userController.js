@@ -9,6 +9,7 @@ const { z } = require('zod');
 const getIstTime = require('../utils/getIstIme')
 const fs = require('fs');
 const redis = require('../utils/redisClient');
+const prisma = require('../utils/prismaClient')
 
 
 
@@ -156,3 +157,44 @@ exports.Register = async (req, res, next) => {
   }
 };
 
+
+
+
+exports.healthCheck= async (req,res) => {
+  try {
+    // Check Redis
+    redis.ping((err, result) => {
+      if (err) {
+        return res.status(500).json({
+          status: 'fail',
+          message: 'Redis is down',
+        });
+      }
+      
+      // Check Database
+      prisma.user.findFirst() // Simple Prisma query to check database
+        .then(() => {
+          res.status(200).json({
+            status: 'ok',
+            message: 'Application is healthy',
+            timestamp: new Date().toISOString(),
+            redis: result,
+          });
+        })
+        .catch((dbErr) => {
+          res.status(500).json({
+            status: 'fail',
+            message: 'Database is down',
+            error: dbErr.message,
+          });
+        });
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'fail',
+      message: 'Health check failed',
+      error: error.message,
+    });
+  }
+  
+}
